@@ -11,9 +11,62 @@
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 		</head>
 
+		<style>
+
+		.circle {
+			border-radius: 50%;
+			border-style: solid;
+			border-width: 4px;
+			opacity: 0.6;
+		}
+
+		.circle:hover {
+			opacity: 1.0;
+		}
+
+		.footer {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			height: 40px;
+		}
+
+		.stickers {
+			padding-top: 17%;
+		}
+
+		</style>
+
 		<body>
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+			<div class="container"> 
+				<div class="row stickers">
+  					<div class="col-md-3">
+  						<img src="/muz.png" height="256" width="256" class="circle" />
+  					</div>
+  					<div class="col-md-3">
+  						<img src="/kiwi.png" height="256" width="256" class="circle" />
+  					</div>
+  					<div class="col-md-3">
+  						<img src="/xmas.png" height="256" width="256" class="circle" />
+  					</div>
+  					<div class="col-md-3">
+  						<img src="/pinoy.png" height="256" width="256" class="circle" />
+  					</div>
+				</div>
+			</div>
+
+			<footer class="footer">
+				<div class="container">
+					<p align="center" class="text-muted">
+						<a href="mailto:contact@stickybit.co.nz">contact@stickybit.co.nz</a>
+					</p>
+				</div>
+			</footer>
+
 		</body>
 
 		<script>
